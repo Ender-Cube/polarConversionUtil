@@ -2,7 +2,7 @@
 A simple utility to convert Anvil worlds to [Polar](https://github.com/hollow-cube/polar)
 
 ## Usage
-Download the [latest release](https://github.com/Ender-Cube/releases/latest) and place the `.jar` in an empty folder with a world folder there too. Then run
+Download the [latest release](https://github.com/Ender-Cube/polarConversionUtil/releases/tag/1.0.0) and place the `.jar` in an empty folder with a world folder there too. Then run
 
 ```shell
 java -jar polarConversionUtil.jar
