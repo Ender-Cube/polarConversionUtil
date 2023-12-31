@@ -14,10 +14,10 @@ repositories {
 
 dependencies {
     // Minestom
-    implementation("dev.hollowcube:minestom-ce:9c6cb1796c")
+    implementation("dev.hollowcube:minestom-ce-snapshots:1_20_4-615248dc5b")
 
     // Polar world lib
-    implementation("dev.hollowcube:polar:1.3.1")
+    implementation("dev.hollowcube:polar:1.6.1")
 
     // Guava https://github.com/google/guava
     implementation("com.google.guava:guava:32.1.1-jre")
