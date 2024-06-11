@@ -5,28 +5,27 @@ plugins {
 }
 
 group = "me.zax71"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
 }
 
 dependencies {
     // Minestom
-    implementation("dev.hollowcube:minestom-ce-snapshots:1_20_4-615248dc5b")
+    implementation("net.minestom:minestom-snapshots:1c528d8ae2")
 
     // Polar world lib
-    implementation("dev.hollowcube:polar:1.6.1")
+    implementation("dev.hollowcube:polar:1.9.5")
 
     // Guava https://github.com/google/guava
-    implementation("com.google.guava:guava:32.1.1-jre")
+    implementation("com.google.guava:guava:33.2.1-jre")
 
 }
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
 
