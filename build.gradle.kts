@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "me.zax71"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -13,10 +13,10 @@ repositories {
 
 dependencies {
     // Minestom
-    implementation("net.minestom:minestom-snapshots:1c528d8ae2")
+    implementation("net.minestom:minestom:2025.08.29-1.21.8")
 
     // Polar world lib
-    implementation("dev.hollowcube:polar:1.9.5")
+    implementation("dev.hollowcube:polar:1.14.7")
 
     // Guava https://github.com/google/guava
     implementation("com.google.guava:guava:33.2.1-jre")
