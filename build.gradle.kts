@@ -1,7 +1,7 @@
 plugins {
     id("java")
     // ShadowJar (https://github.com/johnrengelman/shadow/releases)
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+    id("com.gradleup.shadow") version "9.4.1"
 }
 
 group = "me.zax71"
@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     // Minestom
-    implementation("net.minestom:minestom:2025.08.29-1.21.8")
+    implementation("net.minestom:minestom:2026.04.13-1.21.11")
 
     // Polar world lib
     implementation("dev.hollowcube:polar:1.14.7")
@@ -25,7 +25,7 @@ dependencies {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
