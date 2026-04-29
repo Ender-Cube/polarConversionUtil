@@ -19,7 +19,7 @@ dependencies {
     implementation("dev.hollowcube:polar:1.14.7")
 
     // Guava https://github.com/google/guava
-    implementation("com.google.guava:guava:33.2.1-jre")
+    implementation("com.google.guava:guava:33.6.0-jre")
 
 }
 
