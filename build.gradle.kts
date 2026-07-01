@@ -1,7 +1,7 @@
 plugins {
     id("java")
     // ShadowJar (https://github.com/johnrengelman/shadow/releases)
-    id("com.gradleup.shadow") version "9.4.2"
+    id("com.gradleup.shadow") version "9.4.3"
 }
 
 group = "me.zax71"
