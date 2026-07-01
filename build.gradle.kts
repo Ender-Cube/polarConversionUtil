@@ -16,7 +16,7 @@ dependencies {
     implementation("net.minestom:minestom:2026.06.20-26.1.2")
 
     // Polar world lib
-    implementation("dev.hollowcube:polar:1.15.1")
+    implementation("dev.hollowcube:polar:1.16.0")
 
     // Guava https://github.com/google/guava
     implementation("com.google.guava:guava:33.6.0-jre")
