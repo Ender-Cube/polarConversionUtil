@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     // Minestom
-    implementation("net.minestom:minestom:2026.07.22-26.2")
+    implementation("net.minestom:minestom:2026.08.28-26.2")
 
     // Polar world lib
     implementation("dev.hollowcube:polar:1.16.0")
